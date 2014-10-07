@@ -28,8 +28,7 @@ class Postgresql94 < Formula
             "--with-uuid=e2fs",
             "--with-pam",
             "--with-perl",
-            "--with-python",
-            "--with-tcl"]
+            "--with-python"]
 
     system "./configure", *args
     if build.head?
